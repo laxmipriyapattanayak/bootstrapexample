@@ -1,0 +1,9 @@
+.navbar-dark, .navbar[data-bs-theme=dark] {
+    --bs-navbar-color: rgb(255, 255, 255) !important;
+}
+.navbar-nav {
+    --bs-nav-link-color: var(--bs-navbar-color);
+}
+.nav-link {
+    color: var(--bs-nav-link-color);
+}
